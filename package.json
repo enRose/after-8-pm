@@ -18,7 +18,6 @@
     "typecheck": "tsc && tsc -p cypress",
     "validate": "run-p \"test -- --run\" lint typecheck test:e2e:run"
   },
-  "prettier": {},
   "eslintIgnore": [
     "/node_modules",
     "/build",
@@ -73,7 +72,7 @@
     "msw": "^2.3.1",
     "npm-run-all": "^4.1.5",
     "postcss": "^8.4.38",
-    "prettier": "3.3.0",
+    "prettier": "3.3.3",
     "prettier-plugin-tailwindcss": "^0.6.1",
     "prisma": "^5.14.0",
     "start-server-and-test": "^2.0.3",
@@ -81,7 +80,7 @@
     "ts-node": "^10.9.2",
     "tsconfig-paths": "^4.2.0",
     "typescript": "^5.4.5",
-    "vite": "^5.2.12",
+    "vite": "^5.3.5",
     "vite-tsconfig-paths": "^4.3.2",
     "vitest": "^1.6.0"
   },
