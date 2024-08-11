@@ -7,6 +7,7 @@ import {
   Scripts,
   ScrollRestoration
 } from '@remix-run/react'
+
 import { getUser } from '~/session.server'
 import '~/tailwind.css'
 
